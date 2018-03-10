@@ -20,3 +20,10 @@ function deviceInfo() {
 	navigator.notification.alert(info);
 	
 }
+
+function personalInfo() {
+    data =  'Hi, I am' + '\n' +
+        'Joanna Pełeńska';
+
+    navigator.notification.alert(data);
+}
